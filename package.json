@@ -5,13 +5,14 @@
   "scripts": {
     "test": "node .",
     "start": "node ./src/index.js",
-    "dev":"nodemon ./src/index.js"
+    "dev": "nodemon ./src/index.js"
   },
   "author": " Sarthak",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.9.0",
     "dotenv": "^16.0.3",
+    "express.js": "^1.0.0",
     "node": "^16.20.0"
   },
   "description": "Counting a 10000 on you"
