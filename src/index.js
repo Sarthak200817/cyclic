@@ -20,8 +20,7 @@ import {
   Client,
   GatewayIntentBits,
   Partials,
-} from "npm:discord.js";
-
+} from  "https://cdn.skypack.dev/discord.js"
 const client = new Client({
   intents: [
     GatewayIntentBits.DirectMessages,
