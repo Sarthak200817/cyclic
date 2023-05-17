@@ -8,7 +8,7 @@ console.log(this.namename);
 }
 }*/
 
-/*const { Client, GatewayIntentBits } = require("discord.js");
+/*const { Client, GatewayIntentBits } from "npm:discord.js";
 
 const client = new Client({
     intents: [
