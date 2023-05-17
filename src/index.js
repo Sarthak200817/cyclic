@@ -16,7 +16,7 @@ const client = new Client({
         GatewayIntentBits.GuildMessages,
     ]
 });*/
-const { Client, GatewayIntentBits, Partials } = require('discord.js');
+const { Client, GatewayIntentBits, Partials } from "npm:discord.js";
 const client = new Client({
   intents: [
     GatewayIntentBits.DirectMessages,
