@@ -20,7 +20,7 @@ import {
   Client,
   GatewayIntentBits,
   Partials,
-} from "./path/to/@discordjs/formatter";
+} from "npm:discord.js";
 
 const client = new Client({
   intents: [
