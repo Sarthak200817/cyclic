@@ -20,7 +20,7 @@ import {
   Client,
   GatewayIntentBits,
   Partials,
-} from "https://cdn.skypack.dev/discord.js";
+} from "./path/to/@discordjs/formatter";
 
 const client = new Client({
   intents: [
